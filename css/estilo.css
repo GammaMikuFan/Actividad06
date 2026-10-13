@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+.font-cursiva {
+    font-family: 'Caveat', cursive;
+}
+/* Hero Section Styling */
+.encabezado {
+    position: relative;
+    background: url(../img/fondoencabezado.jpg) no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navegacion {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.navegacion-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 2rem;
+    transition: background 0.3s;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.navegacion-item:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+}
+/* Destinos Banner */
+.destinos-banner {
+    position: relative;
+    background: url('../img/destino.jpg') no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    color: white;
+    text-align: center;
+}
+/* Gallery Images */
+.galeria-img-wrapper {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+    margin-bottom: 1.5rem;
+    height: 240px;
+}
+.galeria-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.galeria-img-wrapper img:hover {
+    transform: scale(1.05);
+}
+/* Footer Styling */
+.piepagina-custom {
+    background-color: #111c24;
+    color: #adb5bd;
+    padding: 4rem 0 2rem 0;
+}
+.piepagina-custom a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.piepagina-custom a:hover {
+    color: #ffffff;
+}
